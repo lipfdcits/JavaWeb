@@ -7,8 +7,10 @@ public class firstPage {
     public static By shouyinqu=By.xpath("//*[@id=\"app\"]/div/div[2]/div[1]/div[1]/div[1]/div/ul/div[1]/li/div");
         //概览
         public static By gailan=By.xpath("//*[@id=\"app\"]/div/div[2]/div[1]/div[1]/div[1]/div/ul/div[1]/li/ul/div[1]/a/li");
+
         //挂号
         public static By guahao=By.xpath("//*[@id=\"app\"]/div/div[2]/div[1]/div[1]/div[1]/div/ul/div[1]/li/ul/div[2]/a/li");
+
         //收款
         public static By shoukuan=By.xpath("//*[@id=\"app\"]/div/div[2]/div[1]/div[1]/div[1]/div/ul/div[1]/li/ul/div[3]/a/li");
         //退款
