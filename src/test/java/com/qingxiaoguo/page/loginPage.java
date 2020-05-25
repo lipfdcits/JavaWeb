@@ -13,4 +13,8 @@ public class loginPage {
     public static By YanZhengMa=By.xpath("//*[@id=\"app\"]/div/div[2]/div/div[3]/div[2]/span/span[2]");
     //立即注册
     public static By LiJiZhuCe=By.xpath("//*[@id=\"app\"]/div/div[2]/div/div[3]/div[3]/span");
+    //获取验证码
+    public static By huoquyanzhengma=By.xpath("//*[@id=\"app\"]/div/div[2]/div/form/div[2]/div/div/div[3]/button/span");
+    //密码登录
+    public static By mimadenglu=By.xpath("  //*[@id=\"app\"]/div/div[2]/div/div[3]/div[2]/span/span[2]");
 }
