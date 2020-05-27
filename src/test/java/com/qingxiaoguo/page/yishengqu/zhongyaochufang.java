@@ -33,8 +33,16 @@ public class zhongyaochufang {
         public static By quxiao=By.xpath("//*[@id=\"addition\"]/div[1]/div/div[3]/span/button[2]");
     //历史处方
     public static By lishichufang=By.xpath("//*[@id=\"tab-chineseLishi\"]");
+        //开始日期
+        public static By kaishiriqi=By.xpath("//*[@id=\"pane-chineseLishi\"]/div[1]/input[1]");
+        //结束日期
+        public static By jieshuriqi=By.xpath("//*[@id=\"pane-chineseLishi\"]/div[1]/input[2]");
     //处方模板
     public static By chufangmoban=By.xpath("//*[@id=\"tab-chineseMuban\"]");
+        //处方输入
+        public static By chufangshuru=By.xpath("//*[@id=\"pane-chineseMuban\"]/div[1]/input");
     //经方模板
     public static By jingfangmuban=By.xpath("//*[@id=\"tab-chineseJingfang\"]");
+        //经方输入
+        public static By jingfangshuru=By.xpath("//*[@id=\"pane-chineseJingfang\"]/div[1]/input");
 }
