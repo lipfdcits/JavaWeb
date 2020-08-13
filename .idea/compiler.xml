@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="travel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="travel" target="1.8" />
+=======
+        <module name="QingXiaoGuoTest" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="QingXiaoGuoTest" target="1.8" />
+>>>>>>> 7201df103b8c94b578630c7db1452e7c25342e04
     </bytecodeTargetLevel>
   </component>
 </project>
